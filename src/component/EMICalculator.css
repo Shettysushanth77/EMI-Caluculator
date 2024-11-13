@@ -1,0 +1,113 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: sans-serif;
+    /* font-size: 15px; */
+}
+.App{
+    /* border: 4px solid #59b616; */
+    height: 750px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 250, 250);
+    
+
+}
+.main{
+    /* border: 4px solid #16b629; */
+    display: flex;flex-direction: column;
+    justify-content: center;align-items: center;
+    gap: 20px;
+
+}
+.content{
+    border: 4px solid #0b0b0b;
+    /* padding: 20px; */
+    height: 250px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #ddd;
+    /* box-shadow: 1px 1px 10px rgb(56, 55, 55); */
+
+}
+.emi-calculator {
+    /* border: 4px solid #b61616; */
+    padding: 20px;
+    height: 400px;
+    width: 900px;
+    font-family: Arial, sans-serif;
+    /* max-width: 1000px; */
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* width: 500px; */
+    background-color: white;
+    box-shadow: 2px 2px 20px rgb(56, 55, 55);
+  }
+  .head{
+    /* border: 4px solid #16b62b; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .slider-section {
+    /* border: 4px solid #b61686; */
+    height: 200px;
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .range-selector {
+    /* border: 4px solid #16b6a9; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .results-section {
+    /* border: 4px solid #4e16b6; */
+    height: 200px;
+    width: 45%;
+    background-color: #fff6f0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    display: flex;flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+  }
+  
+  input[type='range'] {
+    width: 100%;
+  }
+  
+  .span{
+    /* border: 3px solid #848080; */
+    height: 50px;
+    width: 75px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .total{
+    /* border: 3px solid #c91818; */
+    height: 50px;
+    display: flex;justify-content: center;align-items: center;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color:#ffd178;
+  }
+  .tot{
+    font-weight: bold;
+    color: #0c457c;
+  }
